@@ -14,7 +14,7 @@ let posts = [];
 var post = [];
 let storeId = [];
 
-mongoose.connect("mongodb+srv://Supanat4400:0925294400@cluster0.mohdo.mongodb.net/diaryDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://XXXXXXXXXXXX@cluster0.mohdo.mongodb.net/diaryDB", {useNewUrlParser: true});
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
